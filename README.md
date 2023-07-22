@@ -13,3 +13,17 @@ AtliQ Mart is currently facing a problem where a few key customers did not exten
   * Create the metrics according to the metrics list.
   * Create a dashboard according to the requirements provided by stakeholders in the business review meeting. You will be provided with the     transcript of this business review meeting in comic form.
   * Create relevant insights not provided in the metric list/stakeholder meeting.
+
+# Metrics created according to the client requirement
+[Check py notebook](https://github.com/JEBARSON-JESURAJ/AtliQ-Mart-Supplychain/blob/main/AtliQ_Mart.ipynb)
+1. Total order lines = **57096**
+2. Line Fill Rate = **0.66**
+3. Volume fill Rate = **0.97**
+4. No of Orders = **31729**
+5. On Time delivery % = **0.59**
+6. In Full Delivery % = **0.53**
+7. On Time & In Full Delivery = **0.29**
+8. Average On Time delivery % target =  **86.09**
+9. Average In Full delivery % target =  **76.51**
+10. Average On Time & Full Time delivery % target =  **65.91**
+
