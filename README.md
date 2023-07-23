@@ -14,7 +14,7 @@ AtliQ Mart is currently facing a problem where a few key customers did not exten
   * Create a dashboard according to the requirements provided by stakeholders in the business review meeting. You will be provided with the     transcript of this business review meeting in comic form.
   * Create relevant insights not provided in the metric list/stakeholder meeting.
 
-# Metrics created according to the client requirement
+# Metrics created according to the client requirement (Initial analysis)
 [Check py notebook](https://github.com/JEBARSON-JESURAJ/AtliQ-Mart-Supplychain/blob/main/Metrics.ipynb)
 1. Total order lines = **57096**
 2. Line Fill Rate = **0.66**
