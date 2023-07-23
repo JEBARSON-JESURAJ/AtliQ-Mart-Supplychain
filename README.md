@@ -16,6 +16,7 @@ AtliQ Mart is currently facing a problem where a few key customers did not exten
 
 # Metrics created according to the client requirement (Initial analysis)
 [Check py notebook](https://github.com/JEBARSON-JESURAJ/AtliQ-Mart-Supplychain/blob/main/Metrics.ipynb)
+
 1. Total order lines = **57096**
 2. Line Fill Rate = **0.66**
 3. Volume fill Rate = **0.97**
