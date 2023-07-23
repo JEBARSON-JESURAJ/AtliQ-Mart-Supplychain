@@ -58,9 +58,9 @@ SELECT sq.city,
 FROM dim_targets_orders AS tar
 INNER JOIN (
     SELECT ol.customer_id, c.city,
-        (ROUND(AVG(ol."In Full"),2))*100 AS "Actual_InFull",
-        (ROUND(AVG(ol."On Time"),2))*100 AS "Actual_OnTime",
-        (ROUND(AVG(ol."On Time In Full"),2))*100 AS "Actual_OnTime_InFull"
+        AVG(ol."In Full")*100 AS "Actual_InFull",
+        AVG(ol."On Time")*100 AS "Actual_OnTime",
+        AVG(ol."On Time In Full")*100 AS "Actual_OnTime_InFull"
     FROM fact_order_lines AS ol
     INNER JOIN dim_customers AS c
     USING(customer_id) 
