@@ -1,10 +1,10 @@
 --OT, IF, OTIF Metrics on daily basis
  
-SELECT actual_delivery_date, (ROUND(AVG("In Full"),2))*100 AS "In_Full",
-    (ROUND(AVG("On Time"),2))*100 AS "On_Time",
-    (ROUND(AVG("On Time In Full"),2))*100 AS "On Time In_Full"
-FROM fact_order_lines
-GROUP BY actual_delivery_date;
+SELECT order_placement_date, (ROUND(AVG(in_full),2))*100 AS "Actual_In_Full",
+    (ROUND(AVG("on_time"),2))*100 AS "Actual_On_Time",
+    (ROUND(AVG("on_time_in_full"),2))*100 AS "On_Time_In_Full"
+FROM fact_orders_aggregate
+GROUP BY order_placement_date;
 
 -- Getting metrics customerwise (Target Vs Actual)
 SELECT tar.customer_id, sq.customer_name,
